@@ -28,7 +28,7 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 4 800>; // レイヤー4, 800ms
+        input-processors = <&zip_temp_layer 4 10000>; // レイヤー4, 10000ms
     };
 };
 
