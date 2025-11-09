@@ -57,6 +57,11 @@
             bindings = <&kp F2>;
             key-positions = <12 26>;
         };
+
+        Pcomco {
+            bindings = <&kp P>;
+            key-positions = <8 21>;
+        };
     };
 
     macros {
