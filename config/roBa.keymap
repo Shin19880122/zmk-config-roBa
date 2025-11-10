@@ -28,11 +28,6 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <1 10>;
-        };
-
         Lcrick {
             bindings = <&mkp MB1>;
             key-positions = <18 19>;
@@ -105,10 +100,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4  &kp F5                      &kp F6  &kp F7  &kp F8  &kp F11         &kp F12
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp F9          &kp F10
-&kp LCTRL       &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp RIGHT
-&trans          &trans  &trans  &trans  &trans  &trans      &trans  &trans                                  &trans
+&kp F1          &kp F2  &kp F3  &kp F4  &kp F5                                  &kp F6  &kp F7  &kp F8  &kp F11         &kp F12
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &kp LS(LEFT_ARROW)      &trans  &trans  &trans  &trans  &kp F9          &kp F10
+&kp LCTRL       &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp RIGHT
+&trans          &trans  &trans  &trans  &trans  &trans                  &trans  &trans                                  &trans
             >;
         };
 
